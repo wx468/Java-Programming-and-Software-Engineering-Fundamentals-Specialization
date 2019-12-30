@@ -1,0 +1,70 @@
+body {
+  /*Background color for entire page*/
+  background-color: pink;
+}
+.topdiv{
+  border-top-style:SOLID;
+    border-bottom-style: dashed;
+  border-color:royalblue;
+  BORDER-WIDTH:1PX;
+  PADDING-LEFT:50PX;
+  font-family: "Courier New", Courier, monospace;
+
+}
+
+
+.boxdiv{
+  background-color:aliceblue;
+  border:solid;
+  border-width:1px;
+  border-color:cornflowerblue;
+  margin:10px 100px 15px 2px;
+  border-radius:25px;
+  
+}
+
+h1{
+  text-align: center;
+  color:blue;
+}
+p{
+  color:purple;
+  
+}
+li{
+  color:green;
+}
+/*style part of the content;
+1. class:apply more than 1
+ <li class="orangetest">aaaa</li>
+.orangetest{};
+2. id: only 1
+id = "idtest"
+#idtest{};
+
+3. can explor
+*/
+.orangetest{
+  color:orange;
+}
+
+#building{
+  float:right;
+}
+#idtest{
+  color:red;
+}
+.tablediv{
+   margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  width: 30em;
+  border: solid;
+  border-width: 1px;
+  border-color: GhostWhite;
+  float:center;
+  
+}
